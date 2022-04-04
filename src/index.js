@@ -15,6 +15,7 @@ import {
 } from 'firebase/auth'
 
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyCgtaWIDKQGDGe5Xxe_bO2ckx71P0TfkMc",
   authDomain: "arma-tu-equipo-85761.firebaseapp.com",
@@ -34,6 +35,7 @@ const auth = getAuth()
 
 //collection reference
 const collectionRef = collection(db,'books')
+
 
 //queries: query(referenciaALaColeccion,where('propiedad','coincidencia','palabra clave'),Opcional:orderBy('propiedad',Opcional:'asc o desc'))
 //to get All documents delete the where parameter
@@ -192,4 +194,5 @@ unsubButton.addEventListener('click', () => {
   unsubCol()
   unsubDoc()
   unsubAuth()
+  
 })
