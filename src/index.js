@@ -14,7 +14,7 @@ import {
 
 } from 'firebase/auth'
 
-
+// edit
 
 const firebaseConfig = {
   apiKey: "AIzaSyCgtaWIDKQGDGe5Xxe_bO2ckx71P0TfkMc",
@@ -55,7 +55,6 @@ const q  = query(collectionRef,orderBy('createdAt'))
 //     console.log(books)
 //   })
 //   .catch(e=>console.log(e))
-
 
 //real time collection data 
 //on snapshot first parameter: collection reference, document reference or query . Then fires the call back function
